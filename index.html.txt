@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sreekesh - Tech Enthusiast & Coder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <h1>Sreekesh</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Hi, I'm Sreekesh</h2>
+            <p>A passionate coder and tech enthusiast with a knack for debugging.</p>
+            <a href="#projects" class="cta-button">Explore My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm Sreekesh, a tech enthusiast and problem solver. I love coding, debugging, and learning about the latest in tech. I specialize in developing clean and efficient code, solving complex debugging challenges, and exploring cutting-edge technologies.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>Coding (JavaScript, Python, HTML/CSS)</li>
+            <li>Debugging (Troubleshooting, Optimization)</li>
+            <li>Tech Enthusiast (Machine Learning, AI, Cloud Computing)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1 - Code Debugger</h3>
+            <p>A tool for debugging code snippets with real-time error detection and suggestions.</p>
+            <a href="https://github.com/sreekesh/code-debugger" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Project 2 - Tech Blog</h3>
+            <p>A blog where I share my thoughts on the latest trends in technology.</p>
+            <a href="https://github.com/sreekesh/tech-blog" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to collaborate or have any questions, feel free to reach out!</p>
+        <form action="mailto:sreekesh@example.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with me: 
+            <a href="https://linkedin.com/in/sreekesh" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/sreekesh" target="_blank">GitHub</a>
+        </p>
+    </footer>
+</body>
+
+</html>
